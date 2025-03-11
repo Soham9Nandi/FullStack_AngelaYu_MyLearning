@@ -1,0 +1,7 @@
+# Initializing the script file and tag
+src and charset  in the script tag
+
+#Creating Random Numbers for the dice roll
+Math.ceil(Math.random()*6)
+
+#Commiting and pushing the final result
