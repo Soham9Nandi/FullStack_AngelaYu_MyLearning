@@ -23,4 +23,9 @@ req - request
 17. Endpoints, destinations
 
 18. HTTP RESPONSE CODE MEANING
-19. 
+19. 1 - hold on
+20. 2 - Here you go, everything is ok
+21. 3- Go away- redirection
+22. 4- Client side error
+23. 5 - server side error
+24. 
