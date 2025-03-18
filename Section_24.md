@@ -28,4 +28,20 @@ req - request
 21. 3- Go away- redirection
 22. 4- Client side error
 23. 5 - server side error
-24. 
+
+
+24. POSTMAN Tutorial
+
+
+25. MIDDLE WARE - bridge between softwares and server
+26. it can, preprocesss requests, logs requests, authentication, process and handle the errors
+27. Public folder contains static elements, like html css, etc
+28. bodyparser middleware npm
+29. express .use (the parser, the type, then extended)
+30. the above gives our request a body that we can acces and read now
+31. To give the form value, go to postman and then go to body and wwwformencoded and then input the values
+
+
+
+32. Body parser belongs to preprocessing categories of middleware
+33. Morgan -> logging middleware
