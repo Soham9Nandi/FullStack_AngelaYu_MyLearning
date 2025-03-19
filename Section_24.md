@@ -45,3 +45,9 @@ req - request
 
 32. Body parser belongs to preprocessing categories of middleware
 33. Morgan -> logging middleware
+
+# Creating Custom MiddleWare
+1. function(req,res,next){
+     some functions with res and req.
+   next();
+   }
