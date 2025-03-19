@@ -37,17 +37,22 @@ req - request
 26. it can, preprocesss requests, logs requests, authentication, process and handle the errors
 27. Public folder contains static elements, like html css, etc
 28. bodyparser middleware npm
-29. express .use (the parser, the type, then extended)
-30. the above gives our request a body that we can acces and read now
-31. To give the form value, go to postman and then go to body and wwwformencoded and then input the values
+### Important
+29. MIDDLEWARE ORDER MATTERS, because the next() actually passes the processed information to the next middleware in line and in that way we can process the data before sending it
+30. express .use (the parser, the type, then extended)
+31. the above gives our request a body that we can acces and read now
+32. To give the form value, go to postman and then go to body and wwwformencoded and then input the values
 
 
 
-32. Body parser belongs to preprocessing categories of middleware
-33. Morgan -> logging middleware
+33. Body parser belongs to preprocessing categories of middleware
+34. Morgan -> logging middleware
 
 # Creating Custom MiddleWare
 1. function(req,res,next){
      some functions with res and req.
    next();
    }
+
+res.redirect
+
