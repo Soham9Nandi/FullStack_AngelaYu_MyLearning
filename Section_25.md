@@ -7,3 +7,10 @@
    1. form, attributes and methods, important, extremely
 
 5. You can use ; to pass mmultiple CLI arguments in one line
+
+
+
+6. Public for static files
+7. views for ejs files
+8. everything else outside
+9. 
