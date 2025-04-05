@@ -52,3 +52,9 @@ let result = await axios.get(
 * ### Authorise/Authenticate
 * Authentication => Allows you to be identified as an user to the API Provider
 * Authorisation => Let's you use the API 
+
+
+# REST API
+1. Various AXIOS commands/functions, e.g. post, get, put, patch, delete, get
+2. Importance of Config tag
+3. app.use(express.static("public")
